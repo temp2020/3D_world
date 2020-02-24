@@ -4,6 +4,7 @@ import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
 
 
 function App() {
+  const name ='Aldemar Fonesca';
   useEffect(() => {
     // Update the document title using the browser API
     let scene, camera, renderer, controls;
@@ -59,7 +60,9 @@ function App() {
     init();
   });
   return (
-    <div className="App"/>
+    <div className="App">
+      <h6>This is simple virtual world by {name}</h6>
+    </div>
   );
 }
 
