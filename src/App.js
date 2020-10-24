@@ -4,7 +4,7 @@ import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
 
 
 function App() {
-  const name ='Aldemar Fonesca';
+  const name ='Ranjith Bantu';
   useEffect(() => {
     // Update the document title using the browser API
     let scene, camera, renderer, controls;
