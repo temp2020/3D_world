@@ -24,12 +24,12 @@ function App() {
       controls.update();
       
       let materialArray = [];
-      let texture_ft = new THREE.TextureLoader().load( '/penguins/barren_ft.jpg');
-      let texture_bk = new THREE.TextureLoader().load( '/penguins/barren_bk.jpg');
-      let texture_up = new THREE.TextureLoader().load( '/penguins/barren_up.jpg');
-      let texture_dn = new THREE.TextureLoader().load( '/penguins/barren_dn.jpg');
-      let texture_rt = new THREE.TextureLoader().load( '/penguins/barren_rt.jpg');
-      let texture_lf = new THREE.TextureLoader().load( '/penguins/barren_lf.jpg');
+      let texture_ft = new THREE.TextureLoader().load( '/textures/barren_ft.jpg');
+      let texture_bk = new THREE.TextureLoader().load( '/textures/barren_bk.jpg');
+      let texture_up = new THREE.TextureLoader().load( '/textures/barren_up.jpg');
+      let texture_dn = new THREE.TextureLoader().load( '/textures/barren_dn.jpg');
+      let texture_rt = new THREE.TextureLoader().load( '/textures/barren_rt.jpg');
+      let texture_lf = new THREE.TextureLoader().load( '/textures/barren_lf.jpg');
         
       materialArray.push(new THREE.MeshBasicMaterial( { map: texture_ft }));
       materialArray.push(new THREE.MeshBasicMaterial( { map: texture_bk }));
